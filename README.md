@@ -1,10 +1,10 @@
-📈 Stock Price Forecasting using ARIMA and SARIMA
+**📈 Stock Price Forecasting using ARIMA and SARIMA**
 
   This project focuses on forecasting stock prices using time-series analysis techniques — specifically ARIMA (AutoRegressive Integrated Moving Average) and SARIMA (Seasonal ARIMA) models.
 
   It demonstrates how data science and statistical modeling can be used to predict future stock trends based on historical data fetched via the yfinance API.
 
-🎯 Objectives
+**🎯 Objectives**
 
   Analyze historical stock price data
 
@@ -14,7 +14,7 @@
 
   Evaluate forecast accuracy using standard metrics
 
-🧠 Features
+**🧠 Features**
 
  📊 Data Collection from Yahoo Finance using yfinance
 
@@ -27,29 +27,43 @@
   📈 Model Evaluation with RMSE (Root Mean Squared Error)
 
   💻 Streamlit App for User-friendly interface to test any stock ticker
+  
 
-🧰 Technologies Used
+🧰 **Technologies Used**
+
   Tool / Library	Purpose
+  
   Python :	Core programming language
+  
   Pandas :	Data manipulation
+  
   NumPy	 : Numerical computations
+  
   Matplotlib :	Data visualization
+  
   yfinance :	Stock market data extraction
+  
   Statsmodels :	ARIMA & SARIMA modeling
+  
   Scikit-learn :	Evaluation metrics
+  
   Jupyter Notebook :	Interactive analysis environment
+  
   Streamlit App : Web App interface
 
-🗂️ Project Structure
+**🗂️ Project Structure**
 Stock-Price-Forecasting/
-│
-├── app.py                   # Streamlit app for interactive forecasts
-├── stock_forecast.ipynb     # Jupyter Notebook (ARIMA/SARIMA analysis)
-├── requirements.txt          # Dependencies
-└── README.md                 # Project overview (this file)
+
+├── app.py         # Streamlit app for interactive forecasts
+
+├── stock_forecast.ipynb        # Jupyter Notebook (ARIMA/SARIMA analysis)
+
+├── requirements.txt             # Dependencies
+
+└── README.md                    # Project overview (this file)
             
 
-⚙️ Environment Setup:
+**⚙️ Environment Setup:**
 
   1️⃣ Create a Virtual Environment
   python -m venv venv
@@ -58,11 +72,11 @@ Stock-Price-Forecasting/
 
   Windows:
 
-   venv\Scripts\activate
+  >> venv\Scripts\activate
 
   macOS / Linux:
 
-   source venv/bin/activate
+  >> source venv/bin/activate
 
   3️⃣ Install Dependencies
    pip install -r requirements.txt
@@ -85,7 +99,7 @@ Stock-Price-Forecasting/
 
     Then open stock_forecast.ipynb to view and execute the code.
 
-🧾 Sample Workflow
+**🧾 Sample Workflow**
 
 1. Fetch stock data (e.g., AAPL, TSLA, GOOG)
 
@@ -100,21 +114,23 @@ Stock-Price-Forecasting/
 6. Calculate RMSE for accuracy comparison
 
 
-🚀 Future Enhancements
+**🚀 Future Enhancements**
 
-  Integrate Sentiment Analysis from news or tweets.
+  >> Integrate Sentiment Analysis from news or tweets.
 
-  Compare with LSTM / Prophet models for deep learning approaches.
+  >> Compare with LSTM / Prophet models for deep learning approaches.
 
-👩‍💻 Author
+**👩‍💻 Author**
 
   Shreya Devanapalli
+  
   Data Science Enthusiast | Machine Learning | Predictive Analytics
 
 📫 LinkedIn Profile : www.linkedin.com/in/shreya-devanapalli
 
 📂 GitHub Portfolio : https://github.com/Shreya-devanapalli
 
-🏁 Quick Summary
+**🏁 Quick Summary**
+
 
   This project is an end-to-end demonstration of stock price forecasting using classical time-series models. It highlights the process of data-driven prediction, model evaluation, and result visualization — valuable skills for data analyst and machine learning roles.
